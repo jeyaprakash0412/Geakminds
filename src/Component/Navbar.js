@@ -14,7 +14,7 @@ const Navbar = () => {
     return (
         <div>
             <div class="container-fluid">
-  <div class="row bg-secondary">
+  <div class="row bg-info">
     <div class="col-2 mt-2"style={{color:"white"}}align="center">
       <h4><b>SKOTE</b></h4>
     </div>
@@ -35,10 +35,10 @@ const Navbar = () => {
           Mega Menu
           </div>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Project</a></li>
+            <li><a class="dropdown-item" href="#">geakminds</a></li>
            
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#">help us</a></li>
           </ul>
         </li>
         

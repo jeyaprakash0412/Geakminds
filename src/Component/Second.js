@@ -78,26 +78,32 @@ const Second = () => {
 
 
         </div>
-        <div class="col-6 gx-8">
-            <div class="d-flex  mr-5 bd-highlight " align="left">
+        
+        <div class="col-2 d-flex  mr-5 bd-highlight" align="left">
+            
                 Order  <br></br>
-              1,235
-              <div>
+              1,235</div>
+              
+              <div class="col-2">
               Revenue <br></br>
               $35,723
               </div>
-              <div>
+              <div class="col-2">
               Average Price  <br></br>
               $16.2
+
               </div>
+              
+   
+    
+
             </div>
 
         </div>
         <div>
 
         </div>
-    </div>
-    </div>
+    
     
         </div>
     )
