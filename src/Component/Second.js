@@ -1,5 +1,4 @@
 import React from 'react'
-import work from '../Images/work.svg'
 import user from '../Images/user.svg'
 
 
@@ -8,11 +7,11 @@ const Second = () => {
         <div>
             <div class="container-fluid">
   <div class="row text-white bg-dark">
-    <div class="col-1 " align="left" >
+    <div class="col-2 " align="left" >
       Menu
     <br></br>
 <br></br>
-    <div class="col"align="center">
+    <div class="col "align="center">
     Dashboards
     </div>
     <br></br>
@@ -34,8 +33,12 @@ const Second = () => {
     Blog
     </div>
     <br></br>
+    <div class="col"align="center">
+    Dashboards
+
     </div>
-    <div class="col-5 shadow-sm p-3 mb-5 bg-dark rounded" align="left" >
+    </div>
+    <div class="col-4 shadow-sm p-3 mb-5 bg-dark rounded" align="left" >
         <div >
            <h4> Dashboards</h4>
            <div >
@@ -88,6 +91,9 @@ const Second = () => {
               $16.2
               </div>
             </div>
+
+        </div>
+        <div>
 
         </div>
     </div>

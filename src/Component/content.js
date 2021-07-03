@@ -1,8 +1,8 @@
 import React from 'react'
-import Navbar from '../Component/Navbar'
-import Second from '../Component/Second'
+import Navbar from './Navbar'
+import Second from './Second'
 
-const content = () => {
+const Content = () => {
     return (
         <div>
             <Navbar/>
@@ -12,4 +12,4 @@ const content = () => {
     )
 }
 
-export default content
+export default Content

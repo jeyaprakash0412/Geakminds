@@ -4,16 +4,16 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import Content from './Component/content'
+import Content from './Component/Content'
 
 function App() {
   return (
   <div>
         <Router>
         <Switch>
-        <Router exact path="/">
+        <Route exact path="/">
             <Content/>
-          </Router>
+          </Route>
           </Switch>
         </Router>
   </div>
