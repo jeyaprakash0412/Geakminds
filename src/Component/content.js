@@ -7,6 +7,11 @@ const Content = () => {
         <div>
             <Navbar/>
             <Second/>
+            <div class="mt-5">
+            <Navbar/>
+            
+
+            </div>
             
         </div>
     )
